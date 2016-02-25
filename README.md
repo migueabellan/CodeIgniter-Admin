@@ -54,6 +54,24 @@ This is a template showcasing the optional theme stylesheet included in Bootstra
 $ composer create-project migueabellan/CodeIgniter-Admin
 ```
 
+You need tu add a salt var in your file config.
+
+```
+$config['salt'] = 'YOUR_SALT';
+```
+
+Your user table is as a follow:
+
+```
+CREATE TABLE `ci_admin` (
+  `id_admin` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user` varchar(45) NOT NULL,
+  `pass` varchar(45) NOT NULL,
+  PRIMARY KEY (`id_admin`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+```
+
+
 ### Update CodeIgniter
 
 ```

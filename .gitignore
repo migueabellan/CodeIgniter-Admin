@@ -11,3 +11,5 @@ application/logs/*
 !application/logs/.htaccess
 
 application/config/development/
+
+system/application/cache/*
