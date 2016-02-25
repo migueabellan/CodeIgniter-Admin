@@ -1,6 +1,6 @@
 {
-	"name": "migueabellan/CodeIgniter-Bootstrap",
-	"description": "CodeIgniter with Bootstrap",
+	"name": "migueabellan/CodeIgniter-Admin",
+	"description": "CodeIgniter with Bootstrap Admin",
 	"type": "project",
 	"license": "MIT",
 	"support": {

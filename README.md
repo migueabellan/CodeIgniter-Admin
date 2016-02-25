@@ -1,4 +1,4 @@
-# CodeIgniter 3.0.4 - Bootstrap 3.3.6
+# CodeIgniter 3.0.4 - Admin Bootstrap 3.3.6
 
 [![Latest Stable Version](https://poser.pugx.org/codeigniter/framework/v/stable)](https://packagist.org/packages/codeigniter/framework) [![Total Downloads](https://poser.pugx.org/codeigniter/framework/downloads)](https://packagist.org/packages/codeigniter/framework) [![Latest Unstable Version](https://poser.pugx.org/codeigniter/framework/v/unstable)](https://packagist.org/packages/codeigniter/framework) [![License](https://poser.pugx.org/codeigniter/framework/license)](https://packagist.org/packages/codeigniter/framework)
 
@@ -51,7 +51,7 @@ This is a template showcasing the optional theme stylesheet included in Bootstra
 ### Install CodeIgniter
 
 ```
-$ composer create-project migueabellan/CodeIgniter-Bootstrap
+$ composer create-project migueabellan/CodeIgniter-Admin
 ```
 
 ### Update CodeIgniter
