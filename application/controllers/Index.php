@@ -16,7 +16,6 @@ class Index extends CI_Controller {
 		$this->load->view('footer.php', $this->viewdata);
 	}
 
-
 	public function index()
 	{
 		$data = array(

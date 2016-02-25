@@ -6,7 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
-	<link rel="shortcut icon" href="<?php //echo $this->config->item('favicon'); ?>">
+	<?php /* ?>
+	<link rel="shortcut icon" href="<?php echo $this->config->item('favicon'); ?>">
+	<?php */ ?>
 	<title><?php echo $page_title; ?></title>
 	
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
