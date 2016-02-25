@@ -42,7 +42,7 @@ CodeIgniter is an Application Development Framework - a toolkit - for people who
 
 This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point ti create something more unique by bulding on or modifying it.
 
-(preview.png?raw=true "Theme Template for Bootstrap 3.3.6")
+![Screenshot: Theme Template for Bootstrap 3.3.6](preview.png)
 
 
 
