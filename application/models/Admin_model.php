@@ -2,6 +2,17 @@
 
 class Admin_model extends CI_Model 
 {
+	public $validation = array(
+        array(
+            'field' => 'user', 
+            'label' => 'user', 
+            'rules' => 'trim|xss_clean|required|min_length[5]|max_length[45]'), 
+        array(
+            'field' => 'pass', 
+            'label' => 'pass', 
+            'rules' => 'trim|xss_clean|required|min_length[5]|max_length[45]|callback_exist_admin')
+        );
+
 	function __construct() {
 		parent::__construct();
 	}

@@ -40,9 +40,9 @@ class AdminIndex extends CI_Controller {
 
         $this->load->helper(array('form', 'security'));
         $this->load->library('form_validation');
-        $this->form_validation->set_rules('user', 'user', 'trim|xss_clean|required|min_length[5]|max_length[45]');
-        $this->form_validation->set_rules('pass', 'pass', 'trim|xss_clean|required|min_length[5]|max_length[45]|callback_exist_admin');
-        
+
+        $this->form_validation->set_rules($this->admin_model->validation);
+
         if ($this->form_validation->run() == FALSE)
         {        
             $data = array(
